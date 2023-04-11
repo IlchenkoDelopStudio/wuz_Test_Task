@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/gridHeader.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main_wrap">
+        <div class="header">
+           
+            <div class="back_left_item_gap">           
+                    <div id="back_left">
+                       <ul>
+                        <a href="#"> <li>  <img src="./img/logo_urfu.svg" alt=""></li></a>
+                      <a href=""><li>Об институте</li></a> 
+                      <a href=""> <li>Как поступить</li></a>
+                      <a href=""> <li>Программы</li></a>
+                       </ul>                 
+                </div>
+        </div>
+            <div id="back_right">
+                <ul >
+                    <table style="margin-left:-99px;">
+                        <tr>
+                            <a href=""> <td>
+                                 <li style="display: inline;float: left;font-Weight:600;">FAQ</li>
+                            </td></a>
+                            <a href="">  <td>
+                               <li style="display: inline;float: left;font-Weight:600;margin-left:-60px;">Контакты</li>
+                            </td></a>
+                        </tr>
+                    </table>
+                    
+                   
+                </ul>
+             
+            </div>
+                <div id="header_items_but">  
+                    
+                    <button id="butonEntry">постутить</button>
+                
+                </div>
+
+        </div>
+     
+
+        <div class="closet_maga">
+            <div class="back_left_item">
+                <img src="./img/textmag.svg" alt="">
+               </div>
+               <div class="center_item">
+                <img src="./img/BackCenter.png" alt="">
+               </div>
+               <div class="back_right_item">
+         
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./img/bu1.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr >
+                        <td><img style="margin-top:100px;" src="./img/textchimico.svg" alt=""></td>
+                    </tr>
+                </table>
+          </div>
+       
+        </div>
+
+
+      
+
+        <div class="trid_items_text">
+            <div class="info_wuz" style="margin-left:-60px;margin-top:120px;">
+                <h2 id="text_wuz">Об институте</h2>
+                <p style="margin-left:100px; margin-top:24px;
+                text-align: justify;
+               font-style: normal;
+               font-weight: 600;
+               font-size: 16px;">
+                    ХТИ - это глубокие научные и </br>
+                    образовательные традиции,  а также </br>
+                    высококвалифицированные сотрудники, </br>
+                    обладающие богатым опытом в решении </br>
+                    разноплановых фундаментальных и</br>
+                     прикладных задач в области современной</br>
+                      химии и химической технологии</br>
+                </p>
+                <p id="button_wuz_show">
+                    Посетить сайт института
+                </p>
+                <button id="butonEntry2">постутить</button>
+            </div>
+     
+            <div class="container">
+                <div class="photo1"><img src="./img/image_27_left.svg" alt=""></div>
+               
+                <div class="num1"><span href="">25</span></div>
+                <div class="numb2" ><span href="">20</span></div>
+                <div class="numb3" ><span href="">150</span></div>
+                <div class="txt1"  style="margin-top:-200px;">
+                    Российских и зарубежных </br>
+                    академических партнеров
+                </div>
+                <div class="txt2" style="margin-top:-200px;font-size:16px;margin-left:-110px">
+                    Крупных индустриальных</br>
+                    партнеров
+                </div>
+                <div class="txt3" style="margin-top:-200px;font-size:16px;margin-left:-400px;">
+                    Бюджетных мест по программам</br>
+                     магистратуры
+                </div>
+                <div class="photo2"><img src="./img/image_28_right.svg" alt=""></div>
+              </div>
+                
+
+              
+        </div>
+
+      
+
+<div id="action_toogle">
+    <div class="toggle-container">
+        
+        <table>
+            <tr>
+                <td>
+                    <div class="toggle">
+                        <div class="toggle-handle"></div>
+                      </div>
+                </td>
+                <td>
+                    <div class="block-1">
+                        <div id="block_toggle">
+                            <b class="blockText" id="text">Бюджет</b>
+                            <img src="./img/222.png" alt="">
+                    </div>
+                </td>
+
+                <td>
+                    <div class="block-2">
+                        <div id="block_toggle">
+                            <b class="blockText2"  id="text2"> Контракт</b>
+                            <img src="./img/3333.png" alt="">
+                           
+                    </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+      
+        </div>
+    
+       
+      </div>
+
+</div>
+
+      
+
+    
+      <script>
+        const toggle = document.querySelector('.toggle');
+const block1 = document.querySelector('.block-1');
+const block2 = document.querySelector('.block-2');
+const text = document.getElementById('text');
+const text2 = document.getElementById('text2');
+
+toggle.addEventListener('click', function() {
+  this.classList.toggle('on');
+  block1.style.display = this.classList.contains('on') ? 'none' : 'block';
+  block2.style.display = this.classList.contains('on') ? 'block' : 'none';
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  text.style.color = "#" + randomColor;
+  text2.style.color = "#" + randomColor;
+  
+});
+      </script>
+
+ </script>
+ <footer>
+
+ </footer>
+</body>
+</html>      

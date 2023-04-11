@@ -1,0 +1,111 @@
+
+.main_wrap{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+.header_list_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.back_right_item_gap{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+
+#back_right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.box-1 {
+  display: flex;
+  margin: auto;
+  background-color: aqua;
+}
+
+.closet_maga{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.trid_items_text{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+.container {  display: grid;
+    margin-top:200px;
+    grid-template-columns: 0.8fr 1.1fr 1.1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "photo1 . photo2"
+      "num1 numb2 numb3"
+      "txt1 txt2 txt3";
+  }
+  
+  .photo2 { grid-area: photo2; }
+  
+  .num1 { grid-area: num1; }
+  
+  .numb2 { grid-area: numb2; }
+  
+  .numb3 { grid-area: numb3; }
+  
+  .txt1 { grid-area: txt1; }
+  
+  .txt2 { grid-area: txt2; }
+  
+  .txt3 { grid-area: txt3; }
+  
+  .photo1 { grid-area: photo1; }
+  
+  .num1{
+    font-size: 52px;
+color: #1E4391;
+
+  }
+
+
+
+  .photo1 img{
+    width: 396px;
+height: 276px;
+  }
+
+  .photo2 img{
+    width: 396px;
+height: 276px;
+    margin-left: -600px;
+    
+  }
+
+  #block_toggle{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .action_toogle{
+  margin-top: -800px;
+ }
