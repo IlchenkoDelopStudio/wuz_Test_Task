@@ -1,0 +1,118 @@
+#logo {
+    margin-left: 30px;
+}
+
+#item-contact{
+    display: inline;
+    float: left;
+    font-Weight:600;
+    margin-left:-60px;
+}
+#item-FAQ{
+    display: inline;
+    float: left;
+    font-Weight:600;
+}
+.back_left_item_gap {
+    background-image: url('../img/Back.svg');
+    width: 799.97px;
+    height: 450px;
+}
+
+#back_right {
+    background-image: url('../img/Backright.svg');
+    width: 399.99px;
+    height: 450px;
+}
+
+#back_right li {
+    display: inline;
+    float: left;
+    font-Weight: 600;
+
+}
+
+#item_list_a a {
+    text-decoration: none;
+    color: #f0eaea;
+}
+
+#left_wuz_image {
+    background-image: url('../img/image_27_left.svg');
+}
+
+#right_wuz_image {
+    background-image: url('../img/image_28_right.svg');
+}
+
+#info_action_item {
+    margin-top: 300px;
+}
+
+#header_items_but {
+    background-image: url('../img/Backrightend.svg');
+    width: 399.99px;
+    height: 450px;
+
+}
+
+.closet_maga {
+    margin-left: -300px;
+    margin-top: -500px;
+}
+
+.center_item {
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    width: 1000px;
+    height: 450px;
+
+    margin-left: -250px;
+
+}
+
+.center_item img {
+    width: 100%;
+    margin-top: 400px;
+}
+
+.back_left_item {
+    position: relative;
+    width: 699px;
+    height: 699px;
+    left: 300px;
+    top: 450px;
+    z-index: 3;
+    background-image: url('../img/PNG_2.png');
+}
+
+.back_left_item img {
+    margin-top: 350px;
+    margin-left: 70px;
+    z-index: 3;
+}
+
+.back_right_item {
+    width: 1077px;
+    height: 1000px;
+    top: 280px;
+    left: -570px;
+    position: relative;
+    z-index: 3;
+    background-image: url('../img/PNG_1.png');
+
+}
+
+.back_right_item img {
+    margin-top: 500px;
+    margin-left: 400px;
+    z-index: 3;
+
+
+
+}
+
+.info_wuz{
+    margin-left:-60px;margin-top:120px;
+}

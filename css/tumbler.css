@@ -1,0 +1,40 @@
+.toggle-container {
+
+  position: relative;
+}
+
+.action_toogle {
+  margin-top: 1080px;
+}
+
+.toggle {
+  width: 50px;
+  height: 25px;
+  background-color: grey;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.toggle-handle {
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translate(0, -50%);
+  transition: transform 0.3s ease;
+}
+
+.toggle.on .toggle-handle {
+  transform: translate(22px, -50%);
+}
+
+.block-2 {
+  display: none;
+}

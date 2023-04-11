@@ -1,281 +1,168 @@
-
-.header{
+.header {
     width: 1600px;
-    height: 480;
-   
-    
+    height: 480px;
+
+
 }
-#letter{
+
+#letter {
     font-size: 400%;
     color: #f0eaea;
 
 }
-h1{
+
+h1 {
     font-size: 96px;
     font-weight: 600px;
 }
-h2{
+
+h2 {
     font-size: 52px;
     font-weight: 600px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #f0eaea;
 }
-ul{
+
+ul {
     color: #f0eaea;
 }
-ul li{
+
+ul li {
     display: inline;
     float: left;
-    font-Weight:600;
+    font-Weight: 600;
     margin-left: 40px;
-
-}
-li{
-    width: 128px;
-height: 22px;
-font-family: 'Mont';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 120%;
-display: flex;
-align-items: center;
-}
-
-#logo{
-    margin-left: 30px;
-}
-
-
-.back_left_item_gap{
-    background-image: url('../img/Back.svg');
-    width: 799.97px;
-    height: 450px;
-}
-#back_right{
-    background-image: url('../img/Backright.svg');
-    width: 399.99px;
-    height: 450px;
-}
-#back_right li{
-    display: inline;
-    float: left;
-    font-Weight:600;
-
-}
-#item_list_a a{
-    text-decoration: none;
-    color: #f0eaea;
-}
-
-#butonEntry{
-    color: #FFFFFF;
-    background-color: #EF302B;
-    font-family:18pt;
-    font-weight:700;
-    border-radius: 24px;
-    width:280px;
-    height:72px;
-    padding: 1px, 0px, 0px, 0px;
-    margin-left:-120px;
-
- }
-
- #butonEntry:hover{
-    background-color: #C0231F;
- }
-
- #header_items_but{
-    background-image: url('../img/Backrightend.svg');
-    width: 399.99px;
-    height: 450px;
-    
- }
-
-.closet_maga{
-    margin-left:-300px;
-    margin-top: -500px;
-}
-  .center_item{
-    position: relative;
-    z-index: 1;
-    top:100px;
-    width: 1000px;
-height: 450px;
-   
-    margin-left: -250px;
-
-  }
-  .center_item img{
-  width: 100%;
-    margin-top:400px;
-  }
- .back_left_item{
-    position: relative;
-    width: 699px;
-    height: 699px;
-    left: 300px;
-    top:450px;
-    z-index: 3;
-    background-image: url('../img/PNG_2.png');
- }
- .back_left_item img{
-    margin-top: 350px;
-    margin-left: 70px;
-    z-index: 3;
- }
- .back_right_item{
-    width: 1077px;
-    height: 1000px;
-    top:280px;
-    left: -570px;
-    position: relative;
-    z-index: 3;
-    background-image: url('../img/PNG_1.png');
-    
- }
- .back_right_item img{
-    margin-top:500px;
-    margin-left: 400px;
-    z-index: 3;
-
-
-  
- }
-
- #text_wuz{
-    color:#1E4391;
-    font-weight: 600;
-                font-size: 52px;
-                margin-top:70px;
-                margin-left:100px;
- }
-
- 
-
- #button_wuz_show{
-    width: 235px;
-height: 22px;
-margin-left: 100px;
-margin-top: 24px;
-/* 1600/18 semibold (подзаголовок) */
-border-bottom: 1px solid #1E4391;
-font-family: 'Mont';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 120%;
-/* identical to box height, or 22px */
-
-display: flex;
-align-items: center;
-
-/* фирм_синий */
-
-color: #1E4391;
-}
-
-
-#butonEntry2{
-    color: #FFFFFF;
-    background-color: #EF302B;
-    font-weight:700;
-    border-radius: 16px;
-    width:280px;
-    height:72px;
-    margin-left: 100px;
-    margin-top:41px;
- }
- 
-
-#butonEntry2:hover{
-    background-color: #C0231F;
- }
-
- #left_wuz_image{
-    background-image: url('../img/image_27_left.svg');
- }
-
- #right_wuz_image{
-    background-image: url('../img/image_28_right.svg');
- }
- #info_action_item{
-    margin-top: 300px;
- }
-
-
- .toggle-container {
-  
-    position: relative;
-  }
-  
-  .action_toogle{
-    margin-top:1080px;
-  }
-  .toggle {
-    width: 50px;
-    height: 25px;
-    background-color: grey;
-    border-radius: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     cursor: pointer;
-  }
-  
-  .toggle-handle {
-    width: 23px;
-    height: 23px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 3px;
-    transform: translate(0, -50%);
-    transition: transform 0.3s ease;
-  }
-  
-  .toggle.on .toggle-handle {
-    transform: translate(22px, -50%);
-  }
-  
-  .block-2 {
-    display: none;
-  }
 
-  footer{
+}
+
+li {
+    width: 128px;
+    height: 22px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+}
+
+#butonEntry {
+    color: #FFFFFF;
+    background-color: #EF302B;
+    font-family: 18pt;
+    font-weight: 700;
+    border-radius: 24px;
+    width: 280px;
+    height: 72px;
+    padding: 1px, 0px, 0px, 0px;
+    margin-left: -120px;
+
+}
+
+#butonEntry:hover {
+    background-color: #C0231F;
+}
+
+
+
+#text_wuz {
+    color: #1E4391;
+    font-weight: 600;
+    font-size: 52px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+
+
+#button_wuz_show {
+    width: 235px;
+    height: 22px;
+    margin-left: 100px;
+    margin-top: 24px;
+    border-bottom: 1px solid #1E4391;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #1E4391;
+}
+
+
+#butonEntry2 {
+    color: #FFFFFF;
+    background-color: #EF302B;
+    font-weight: 700;
+    border-radius: 16px;
+    width: 280px;
+    height: 72px;
+    margin-left: 100px;
+    margin-top: 41px;
+}
+
+
+#butonEntry2:hover {
+    background-color: #C0231F;
+}
+
+footer {
     width: 1600px;
-height: 32px;
+    height: 32px;
+    background: linear-gradient(270deg, #FF2D7F -0.71%, #FB3727 47.63%, #FEEA0F 100%);
+}
 
-/* Градиенты/лого_градиент */
 
-background: linear-gradient(270deg, #FF2D7F -0.71%, #FB3727 47.63%, #FEEA0F 100%);
-  }
+.num1 span {
 
- 
-  .num1 span{
-    
     border-bottom: 5px solid #1E4391;
-  }
+}
 
-  .numb2{
-    font-size: 52px;margin-left:-110px;color: #1E4391;
-   }
-  
-  
-   .numb3{
-    font-size: 52px;margin-left:-400px;color: #1E4391;
-   }
-   
+.numb2 {
+    font-size: 52px;
+    margin-left: -110px;
+    color: #1E4391;
+}
 
-   .numb2 span{
+
+.numb3 {
+    font-size: 52px;
+    margin-left: -400px;
+    color: #1E4391;
+}
+
+
+.numb2 span {
     border-bottom: 5px solid #1E4391;
-   }
-   
-   .numb3 span{
+}
+
+.numb3 span {
     border-bottom: 5px solid #1E4391;
-   }
+}
+.txt1{
+    margin-top:-200px;
+    font-size:16px;
+}
+.txt2{
+    margin-top:-200px;
+    font-size:16px;
+    margin-left:-110px
+}
+
+.txt3{
+    margin-top:-200px;font-size:16px;margin-left:-400px;
+}
+.info_wuz p{
+    margin-left:100px; margin-top:24px;
+                text-align: justify;
+               font-style: normal;
+               font-weight: 600;
+               font-size: 16px;
+}
